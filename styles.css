@@ -1,0 +1,55 @@
+html,body {
+    margin: 0px ;
+    padding 0px ;
+    
+    color: lightgray ;
+}
+
+h1, h2, h3 {
+    font-weight: bold ;
+}
+img{
+    max-width: 100% ;
+    height: auto ;
+}
+
+
+
+/* Section about */
+#about {
+    width: 100vw ;
+    height: 100vh ;
+    
+    
+    border: 1px solid red ;
+}
+.wrp {
+    display: flex ;
+    
+    width: 80% ;
+    height: 75% ;
+    max-width: 930px ;
+    margin-top: 15vh ;
+    
+    border: 1px solid green ;
+}
+.title {
+    white-space: pre ;
+}
+.pic{
+    z-index: -1 ;
+    
+    display: flex ;
+    text-align: center ;
+    
+    height: 100% ;
+    padding-left: 0px ;
+    padding-right: 0px ;
+    
+    background-image: url(Images/bg1.jpg) ;
+    background-size: cover ;
+    background-position: center ;
+    
+    border: 2px solid black ;
+}
+
