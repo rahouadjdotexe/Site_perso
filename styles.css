@@ -1,8 +1,13 @@
-html,body {
+body {
     margin: 0px ;
     padding 0px ;
     
-    color: lightgray ;
+    
+    
+    color: #F6A579 ;
+    background-color: #946B50 ;
+    
+    font-family: Montserrat, sans-serif ;
 }
 
 h1, h2, h3 {
@@ -15,29 +20,49 @@ img{
 
 
 
-/* Section about */
+/* ABOUT SECTION */
 #about {
     width: 100vw ;
     height: 100vh ;
     
     
-    border: 1px solid red ;
 }
 .wrp {
     display: flex ;
     
+    position: relative ;
     width: 80% ;
     height: 75% ;
     max-width: 930px ;
-    margin-top: 15vh ;
     
-    border: 1px solid green ;
+    top: 15vh ;
+    padding: 0px ;
 }
 .title {
-    white-space: pre ;
+    position: absolute ;
+    z-index: 2 ;
+    
+    top: 15% ;
+    
+    text-shadow: 0 2px 4px rgb(0 0 0 / 70%); 
+    
+}
+
+
+.title div{
+    margin-top: 10% ;
+    border: 1px solid #B9DFC3 ;
+}
+.title h1 {
+    font-size: calc(1.7rem + 2vw) ;
+    font-weight: 700 ;
+    color: #EEFCF1 ;
+}
+.title h3{
+    margin-top: 5% ;
+    color: #D5ECDB ;
 }
 .pic{
-    z-index: -1 ;
     
     display: flex ;
     text-align: center ;
@@ -50,6 +75,5 @@ img{
     background-size: cover ;
     background-position: center ;
     
-    border: 2px solid black ;
 }
 
